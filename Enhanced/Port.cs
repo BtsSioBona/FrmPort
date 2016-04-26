@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Linq;
 using static Enhanced.NavireFret;
 using static Enhanced.NavirePassager;
 
@@ -36,7 +37,8 @@ namespace Enhanced
         /// <param name="pUnNavireFret">Navire fret à ajouter</param>
         public void AjouterNavire(NavireFret pUnNavireFret)
         {
-            
+            TousLesNaviresPort.Add(pUnNavireFret);
+            NbNavireFret += 1;
         }
 
         /// <summary>
@@ -45,7 +47,8 @@ namespace Enhanced
         /// <param name="pUnNavirePassager">Navire passager à ajouter</param>
         public void AjouterNavire(NavirePassager pUnNavirePassager)
         {
-            
+            TousLesNaviresPort.Add(pUnNavirePassager);
+            NbNavirePassager += 1;
         }
         
         /// <summary>
@@ -54,7 +57,17 @@ namespace Enhanced
         /// <param name="i">Indice</param>
         public void SupprimerNavire(int i)
         {
-            
+            ToutNavire navire = ExtraireNavire(i);
+
+            if (navire is NavireFret)
+            {
+                NbNavireFret -= 1;
+            } else if (navire is NavirePassager)
+            {
+                NbNavirePassager -= 1;
+            }
+
+            TousLesNaviresPort.RemoveAt(i);
         }
 
         /// <summary>
@@ -64,7 +77,7 @@ namespace Enhanced
         /// <returns>Navire fret ou passager</returns>
         public ToutNavire ExtraireNavire(int i)
         {
-            
+            return TousLesNaviresPort[i];
         }
     }
 }
