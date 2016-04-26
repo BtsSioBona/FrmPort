@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Enhanced.NavireFret" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>NavireFret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enhanced.NavirePassager" Collapsed="true">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAAAAAAIAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>NavirePassager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enhanced.Port" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAACSAgAAAAAAABAAAAAAAAAAAAAAAAAAABEAAAAAA=</HashCode>
+      <FileName>Port.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enhanced.ToutNavire" Collapsed="true">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAIAAAAAAAAAAAAAAAAAAAJAACAIAAAIAAAAAAAA=</HashCode>
+      <FileName>ToutNavire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

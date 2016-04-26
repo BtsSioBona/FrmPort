@@ -1,1 +1,5 @@
-C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\Enhanced\bin\Debug\Enhanced.exe.config
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\Enhanced\bin\Debug\Enhanced.pdb
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\Enhanced\obj\Debug\Enhanced.pdb
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\Enhanced\bin\Debug\Enhanced.dll.config
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\Enhanced\bin\Debug\Enhanced.dll
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\Enhanced\obj\Debug\Enhanced.dll
