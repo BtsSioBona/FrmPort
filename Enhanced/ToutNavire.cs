@@ -1,8 +1,8 @@
 ﻿namespace Enhanced
 {
-    class ToutNavire
+    public abstract class ToutNavire
     {
-        public ToutNavire(int noLloyds, string nomNavire, string pavillon, int longeur, int largeur, int tirantEau)
+        protected ToutNavire(int noLloyds, string nomNavire, string pavillon, int longeur, int largeur, int tirantEau)
         {
             NoLloyds = noLloyds;
             NomNavire = nomNavire;
