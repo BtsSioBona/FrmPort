@@ -10,3 +10,9 @@ C:\Users\raimon.d\Documents\Visual Studio 2015\Projects\FrmGestionPort\FrmGestio
 C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\bin\Debug\FrmGestionPort.exe.config
 C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\FrmGestionPort.exe
 C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\FrmGestionPort.pdb
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\bin\Debug\FrmGestionPort.exe
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\bin\Debug\FrmGestionPort.pdb
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\FrmGestionPort.csprojResolveAssemblyReference.cache
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\Port_Classe.FrmGestionPort.resources
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\FrmGestionPort.Properties.Resources.resources
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\FrmGestionPort.csproj.GenerateResource.Cache

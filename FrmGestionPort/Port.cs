@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Port_classes_console
 {
@@ -20,7 +18,7 @@ namespace Port_classes_console
             Navires = new List<Navire>();
             Navires.Add(new Navire("80", "BlackPearls", "80", 600));
         }
-        public void dechargement(Navire unNavire)
+        public void Dechargement(Navire unNavire)
         {
             int i = 0;
             Stockage unStockage;
