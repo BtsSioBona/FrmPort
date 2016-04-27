@@ -15,17 +15,18 @@ namespace Port_Classe
             InitializeComponent();
         }
 
-        private void BtnCreerNavireFret_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        /// <summary>
+        /// Creation d'un port
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnCreerPort_Click(object sender, EventArgs e)
         {
             Port = new Enhanced.Port(TxtNomPort.Text);
             MessageBox.Show("Port créé");
             TxtNomPort.Enabled = false;
             BtnCreerPort.Enabled = false;
+            TxNbFretPresent.Text = 
 
             // Activations des champs de navires
             TxNumLLOYD.Enabled = true;
@@ -48,9 +49,24 @@ namespace Port_Classe
             BtnCreerNavirePassager.Enabled = true;
         }
 
+        /// <summary>
+        /// Creation d'un navire de type fret
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BtnCreerNavireFret_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void BtnQuitter_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

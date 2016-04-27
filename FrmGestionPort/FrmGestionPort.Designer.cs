@@ -247,12 +247,13 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(245, 131);
+            this.label11.Location = new System.Drawing.Point(252, 130);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(87, 13);
+            this.label11.Size = new System.Drawing.Size(68, 13);
             this.label11.TabIndex = 18;
-            this.label11.Text = "Static Passager :";
+            this.label11.Text = "Nb bateaux :";
             this.label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
