@@ -16,3 +16,5 @@ C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\Frm
 C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\Port_Classe.FrmGestionPort.resources
 C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\FrmGestionPort.Properties.Resources.resources
 C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\obj\Debug\FrmGestionPort.csproj.GenerateResource.Cache
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\bin\Debug\Enhanced.dll
+C:\Users\toto\Documents\cours\BTS\Pragramme\C#\Port\FrmGestionPort\bin\Debug\Enhanced.pdb
