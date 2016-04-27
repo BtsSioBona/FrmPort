@@ -27,6 +27,14 @@ namespace Port_Classe
             TxtNomPort.Enabled = false;
             BtnCreerPort.Enabled = false;
 
+            // Activations des champs de navires
+            TxNumLLOYD.Enabled = true;
+            TxNomNavire.Enabled = true;
+            TxPavillon.Enabled = true;
+            TxLongueur.Enabled = true;
+            TxLargeur.Enabled = true;
+            TxTirant.Enabled = true;
+
             // Activation des boutons de fret
             TxLibelleFret.Enabled = true;
             TxQuantiteFret.Enabled = true;
