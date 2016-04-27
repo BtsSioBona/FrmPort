@@ -56,7 +56,6 @@
             this.BtnRetirerDuPort = new System.Windows.Forms.Button();
             this.TxIndiceSupp = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.BtnAffecterPort = new System.Windows.Forms.Button();
             this.TxNumFret = new System.Windows.Forms.TextBox();
             this.TxQuantiteFret = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -68,7 +67,6 @@
             this.BtnRetirerDuPort2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.BtnAffecterAuPort2 = new System.Windows.Forms.Button();
             this.TxNbCabine = new System.Windows.Forms.TextBox();
             this.TxNbChambre = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -318,7 +316,6 @@
             this.GrbNavireFret.Controls.Add(this.BtnRetirerDuPort);
             this.GrbNavireFret.Controls.Add(this.TxIndiceSupp);
             this.GrbNavireFret.Controls.Add(this.label12);
-            this.GrbNavireFret.Controls.Add(this.BtnAffecterPort);
             this.GrbNavireFret.Controls.Add(this.TxNumFret);
             this.GrbNavireFret.Controls.Add(this.TxQuantiteFret);
             this.GrbNavireFret.Controls.Add(this.label14);
@@ -361,16 +358,6 @@
             this.label12.Text = "Indice à supprimer";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // BtnAffecterPort
-            // 
-            this.BtnAffecterPort.Enabled = false;
-            this.BtnAffecterPort.Location = new System.Drawing.Point(162, 122);
-            this.BtnAffecterPort.Name = "BtnAffecterPort";
-            this.BtnAffecterPort.Size = new System.Drawing.Size(131, 39);
-            this.BtnAffecterPort.TabIndex = 21;
-            this.BtnAffecterPort.Text = "Affecter au Port";
-            this.BtnAffecterPort.UseVisualStyleBackColor = true;
-            // 
             // TxNumFret
             // 
             this.TxNumFret.Enabled = false;
@@ -410,7 +397,7 @@
             // BtnCreerNavireFret
             // 
             this.BtnCreerNavireFret.Enabled = false;
-            this.BtnCreerNavireFret.Location = new System.Drawing.Point(25, 122);
+            this.BtnCreerNavireFret.Location = new System.Drawing.Point(89, 122);
             this.BtnCreerNavireFret.Name = "BtnCreerNavireFret";
             this.BtnCreerNavireFret.Size = new System.Drawing.Size(131, 39);
             this.BtnCreerNavireFret.TabIndex = 14;
@@ -441,7 +428,6 @@
             this.GrbNavirePassagers.Controls.Add(this.BtnRetirerDuPort2);
             this.GrbNavirePassagers.Controls.Add(this.textBox1);
             this.GrbNavirePassagers.Controls.Add(this.label13);
-            this.GrbNavirePassagers.Controls.Add(this.BtnAffecterAuPort2);
             this.GrbNavirePassagers.Controls.Add(this.TxNbCabine);
             this.GrbNavirePassagers.Controls.Add(this.TxNbChambre);
             this.GrbNavirePassagers.Controls.Add(this.label17);
@@ -484,16 +470,6 @@
             this.label13.Text = "Indice à supprimer";
             this.label13.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // BtnAffecterAuPort2
-            // 
-            this.BtnAffecterAuPort2.Enabled = false;
-            this.BtnAffecterAuPort2.Location = new System.Drawing.Point(162, 122);
-            this.BtnAffecterAuPort2.Name = "BtnAffecterAuPort2";
-            this.BtnAffecterAuPort2.Size = new System.Drawing.Size(131, 39);
-            this.BtnAffecterAuPort2.TabIndex = 21;
-            this.BtnAffecterAuPort2.Text = "Affecter au Port";
-            this.BtnAffecterAuPort2.UseVisualStyleBackColor = true;
-            // 
             // TxNbCabine
             // 
             this.TxNbCabine.Enabled = false;
@@ -533,7 +509,7 @@
             // BtnCreerNavirePassager
             // 
             this.BtnCreerNavirePassager.Enabled = false;
-            this.BtnCreerNavirePassager.Location = new System.Drawing.Point(25, 122);
+            this.BtnCreerNavirePassager.Location = new System.Drawing.Point(99, 122);
             this.BtnCreerNavirePassager.Name = "BtnCreerNavirePassager";
             this.BtnCreerNavirePassager.Size = new System.Drawing.Size(131, 39);
             this.BtnCreerNavirePassager.TabIndex = 14;
@@ -697,7 +673,6 @@
         private System.Windows.Forms.Button BtnRetirerDuPort;
         private System.Windows.Forms.TextBox TxIndiceSupp;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Button BtnAffecterPort;
         private System.Windows.Forms.TextBox TxNumFret;
         private System.Windows.Forms.TextBox TxQuantiteFret;
         private System.Windows.Forms.Label label14;
@@ -709,7 +684,6 @@
         private System.Windows.Forms.Button BtnRetirerDuPort2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button BtnAffecterAuPort2;
         private System.Windows.Forms.TextBox TxNbCabine;
         private System.Windows.Forms.TextBox TxNbChambre;
         private System.Windows.Forms.Label label17;
